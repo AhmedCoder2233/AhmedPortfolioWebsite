@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiArrowDown } from 'react-icons/fi';
@@ -164,5 +165,6 @@ const Hero = () => {
     </section>
   );
 };
+
 
 export default Hero;
