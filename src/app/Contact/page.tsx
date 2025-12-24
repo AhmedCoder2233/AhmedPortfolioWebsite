@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
@@ -115,5 +116,6 @@ const Contact = () => {
     </section>
   );
 };
+
 
 export default Contact;
