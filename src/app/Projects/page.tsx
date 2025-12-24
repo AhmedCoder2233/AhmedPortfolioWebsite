@@ -5,7 +5,7 @@ import { FiExternalLink, FiCode } from 'react-icons/fi';
 import { HiSparkles } from 'react-icons/hi';
 
 const Projects = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);;
 
   const projects = [
     {
@@ -216,3 +216,4 @@ const Projects = () => {
 
 
 export default Projects;
+
