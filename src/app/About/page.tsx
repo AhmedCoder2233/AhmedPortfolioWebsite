@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { motion } from 'framer-motion';
 import { 
@@ -192,5 +193,6 @@ const AboutSection = () => {
     </section>
   );
 };
+
 
 export default AboutSection;
