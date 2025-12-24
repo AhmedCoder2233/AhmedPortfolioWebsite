@@ -11,7 +11,7 @@ import {
 import { HiSparkles } from 'react-icons/hi';
 
 const SkillsSection = () => {
-  const [hoveredCategory, setHoveredCategory] = useState(null);
+  const [hoveredCategory, setHoveredCategory] = useState<string | null>(null);
 
   const skillCategories = [
     {
@@ -245,3 +245,4 @@ const SkillsSection = () => {
 
 
 export default SkillsSection;
+
