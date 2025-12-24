@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FiExternalLink, FiCode } from 'react-icons/fi';
@@ -212,5 +213,6 @@ const Projects = () => {
     </section>
   );
 };
+
 
 export default Projects;
